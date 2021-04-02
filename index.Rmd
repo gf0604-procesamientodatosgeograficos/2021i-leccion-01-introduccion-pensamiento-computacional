@@ -26,7 +26,7 @@ background-size: contain
 `r rmarkdown::metadata$institute`
 ]
 
-.palegrey[.left[.footnote[<small>Representación artística de una [máquina de Turing](https://es.wikipedia.org/wiki/M%C3%A1quina_de_Turing). Imagen de [Porao](https://commons.wikimedia.org/wiki/File:Turing_Machine.png).</small>]]]
+.palegrey[.left[.footnote[<small>Representación artística de una [máquina de Turing](https://es.wikipedia.org/wiki/M%C3%A1quina_de_Turing). [Imagen de Porao](https://commons.wikimedia.org/wiki/File:Turing_Machine.png).</small>]]]
 
 ---
 
@@ -85,19 +85,36 @@ background-size: contain
 
 .pull-left[
 #### Seymour Papert
-Matemático, pionero de la inteligencia artificial, co-creador del lenguaje Logo.  
-<img src="img/papert.jpg" height="150" />
+Matemático, pionero de la inteligencia artificial, co-creador del lenguaje Logo.
 <p>
-*Mindstorms: Children, Computers, and Powerful Ideas* (1983)  
-[*An Exploration in the Space of Mathematics Educations* (1996)](http://www.papert.org/articles/AnExplorationintheSpaceofMathematicsEducations.html)
+<figure>
+  <img src="img/papert.jpg" height="150" />
+  <figcaption>
+    <small>Seymour Papert. [Imagen de ak_mardini](https://commons.wikimedia.org/wiki/File:Papert.jpg).</small>
+  </figcaption>
+</figure>
+<p>
+<small>
+- *Mindstorms: Children, Computers, and Powerful Ideas* (1983)  
+- [*An Exploration in the Space of Mathematics Educations* (1996)](http://www.papert.org/articles/AnExplorationintheSpaceofMathematicsEducations.html)
+</small>
 ]
 
 .pull-right[
 #### Jeannette Wing
-Investigadora en ciencias de la computación, ex vicepresidente de Microsoft Research.  
-<img src="img/wing.jpg" height="150" />
+Investigadora en ciencias de la computación, ex vicepresidente de Microsoft Research.
 <p>
-[*Computational thinking* (2006)](https://www.cs.cmu.edu/~15110-s13/Wing06-ct.pdf)
+<p>
+<figure>
+  <img src="img/wing.jpg" height="150" />
+  <figcaption>
+    <small>Jeannette Wing. [Imagen de World Economic Forum](https://commons.wikimedia.org/wiki/File:Jeannette_Wing,_Davos_2013.jpg).</small>
+  </figcaption>
+</figure>
+<p>
+<small>
+- [*Computational thinking* (2006)](https://www.cs.cmu.edu/~15110-s13/Wing06-ct.pdf)
+</small>
 ]
 
 ---
