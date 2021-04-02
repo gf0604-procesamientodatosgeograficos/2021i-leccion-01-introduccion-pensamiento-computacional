@@ -38,7 +38,7 @@ Manuel Vargas&lt;br&gt;
 Universidad de Costa Rica
 ]
 
-.palegrey[.left[.footnote[&lt;small&gt;Representación artística de una [máquina de Turing](https://es.wikipedia.org/wiki/M%C3%A1quina_de_Turing). [Imagen de Porao](https://commons.wikimedia.org/wiki/File:Turing_Machine.png).&lt;/small&gt;]]]
+.palegrey[.left[.footnote[&lt;small&gt;Representación artística de una [máquina de Turing](https://es.wikipedia.org/wiki/M%C3%A1quina_de_Turing). Fuente: [Porao](https://commons.wikimedia.org/wiki/File:Turing_Machine.png).&lt;/small&gt;]]]
 
 ---
 
@@ -61,6 +61,7 @@ Universidad de Costa Rica
 
 # ¿Qué es pensamiento computacional?
 
+--
 - ### Es un enfoque para la resolución de problemas basado en conceptos y métodos de las ciencias de la computación.
 
 --
@@ -95,14 +96,17 @@ Universidad de Costa Rica
 
 # Investigación en pensamiento computacional
 
+--
 .pull-left[
-#### Seymour Papert
-Matemático, pionero de la inteligencia artificial, co-creador del lenguaje Logo.
+**Seymour Papert**  
+&lt;small&gt;
+Matemático, pionero de la inteligencia artificial, co-creador del lenguaje de programación Logo.
+&lt;/small&gt;
 &lt;p&gt;
 &lt;figure&gt;
   &lt;img src="img/papert.jpg" height="150" /&gt;
   &lt;figcaption&gt;
-    &lt;small&gt;Seymour Papert. [Imagen de ak_mardini](https://commons.wikimedia.org/wiki/File:Papert.jpg).&lt;/small&gt;
+    &lt;small&gt;Fuente: [ak_mardini](https://commons.wikimedia.org/wiki/File:Papert.jpg).&lt;/small&gt;
   &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;
@@ -112,15 +116,17 @@ Matemático, pionero de la inteligencia artificial, co-creador del lenguaje Logo
 &lt;/small&gt;
 ]
 
+--
 .pull-right[
-#### Jeannette Wing
+**Jeannette Wing**  
+&lt;small&gt;
 Investigadora en ciencias de la computación, ex vicepresidente de Microsoft Research.
-&lt;p&gt;
+&lt;/small&gt;
 &lt;p&gt;
 &lt;figure&gt;
   &lt;img src="img/wing.jpg" height="150" /&gt;
   &lt;figcaption&gt;
-    &lt;small&gt;Jeannette Wing. [Imagen de World Economic Forum](https://commons.wikimedia.org/wiki/File:Jeannette_Wing,_Davos_2013.jpg).&lt;/small&gt;
+    &lt;small&gt;Fuente: [World Economic Forum](https://commons.wikimedia.org/wiki/File:Jeannette_Wing,_Davos_2013.jpg).&lt;/small&gt;
   &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;
@@ -130,11 +136,65 @@ Investigadora en ciencias de la computación, ex vicepresidente de Microsoft Res
 ]
 
 ---
+class: center
+
+# Pilares del pensamiento computacional
+
+--
+&lt;br&gt;&lt;br&gt;
+&lt;figure&gt;
+  &lt;img src="img/pilares-pensamiento-computacional.png" /&gt;
+  &lt;figcaption&gt;
+    &lt;small&gt;Fuente: &lt;a href="https://www.coursera.org/learn/computational-thinking-problem-solving"&gt;Universidad de Pennsylvania&lt;/a&gt;.&lt;/small&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+---
 
 # Descomposición
 
+--
+.pull-left[
 - ### División de un problema complejo en subproblemas más fáciles de resolver.
+
 - ### La unión de las soluciones a los subproblemas brinda la solución al problema original.
+]
+
+--
+.pull-right[
+&lt;figure&gt;
+  &lt;img src="img/descomposicion.png" /&gt;
+  &lt;figcaption&gt;
+    &lt;small&gt;Fuente: &lt;a href="https://www.coursera.org/learn/computational-thinking-problem-solving"&gt;Universidad de Pennsylvania&lt;/a&gt;.&lt;/small&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+]
+
+---
+
+# Descomposición - ejemplo
+
+--
+.pull-left[
+### Documento sin secciones
+&lt;figure&gt;
+  &lt;img src="img/descomposicion-informe-completo.png" /&gt;
+  &lt;figcaption&gt;
+    &lt;small&gt;Fuente: &lt;a href="https://www.coursera.org/learn/computational-thinking-problem-solving"&gt;Universidad de Pennsylvania&lt;/a&gt;.&lt;/small&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+]
+
+--
+.pull-right[
+### Documento con secciones
+&lt;figure&gt;
+  &lt;img src="img/descomposicion-informe-secciones.png" /&gt;
+  &lt;figcaption&gt;
+    &lt;small&gt;Fuente: &lt;a href="https://www.coursera.org/learn/computational-thinking-problem-solving"&gt;Universidad de Pennsylvania&lt;/a&gt;.&lt;/small&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+]
 
 ---
 
@@ -437,8 +497,8 @@ library(leaflet)
 leaflet() %&gt;% addTiles() %&gt;% setView(-93.65, 42.0285, zoom = 17)
 ```
 
-<div id="htmlwidget-846f96ae09514659c7fb" style="width:100%;height:432px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-846f96ae09514659c7fb">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[42.0285,-93.65],17,[]]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-6798a37e38e241a4d9a7" style="width:100%;height:432px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-6798a37e38e241a4d9a7">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[42.0285,-93.65],17,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 
@@ -450,8 +510,8 @@ DT::datatable(
 )
 ```
 
-<div id="htmlwidget-f28bb8cba7f7cd91a3a7" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-f28bb8cba7f7cd91a3a7">{"x":{"filter":"none","fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-b61da4b51e10b82efa2d" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b61da4b51e10b82efa2d">{"x":{"filter":"none","fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Sepal.Length<\/th>\n      <th>Sepal.Width<\/th>\n      <th>Petal.Length<\/th>\n      <th>Petal.Width<\/th>\n      <th>Species<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 
 ---
 

@@ -26,7 +26,7 @@ background-size: contain
 `r rmarkdown::metadata$institute`
 ]
 
-.palegrey[.left[.footnote[<small>Representación artística de una [máquina de Turing](https://es.wikipedia.org/wiki/M%C3%A1quina_de_Turing). [Imagen de Porao](https://commons.wikimedia.org/wiki/File:Turing_Machine.png).</small>]]]
+.palegrey[.left[.footnote[<small>Representación artística de una [máquina de Turing](https://es.wikipedia.org/wiki/M%C3%A1quina_de_Turing). Fuente: [Porao](https://commons.wikimedia.org/wiki/File:Turing_Machine.png).</small>]]]
 
 ---
 
@@ -49,6 +49,7 @@ background-size: contain
 
 # ¿Qué es pensamiento computacional?
 
+--
 - ### Es un enfoque para la resolución de problemas basado en conceptos y métodos de las ciencias de la computación.
 
 --
@@ -83,14 +84,17 @@ background-size: contain
 
 # Investigación en pensamiento computacional
 
+--
 .pull-left[
-#### Seymour Papert
-Matemático, pionero de la inteligencia artificial, co-creador del lenguaje Logo.
+**Seymour Papert**  
+<small>
+Matemático, pionero de la inteligencia artificial, co-creador del lenguaje de programación Logo.
+</small>
 <p>
 <figure>
   <img src="img/papert.jpg" height="150" />
   <figcaption>
-    <small>Seymour Papert. [Imagen de ak_mardini](https://commons.wikimedia.org/wiki/File:Papert.jpg).</small>
+    <small>Fuente: [ak_mardini](https://commons.wikimedia.org/wiki/File:Papert.jpg).</small>
   </figcaption>
 </figure>
 <p>
@@ -100,15 +104,17 @@ Matemático, pionero de la inteligencia artificial, co-creador del lenguaje Logo
 </small>
 ]
 
+--
 .pull-right[
-#### Jeannette Wing
+**Jeannette Wing**  
+<small>
 Investigadora en ciencias de la computación, ex vicepresidente de Microsoft Research.
-<p>
+</small>
 <p>
 <figure>
   <img src="img/wing.jpg" height="150" />
   <figcaption>
-    <small>Jeannette Wing. [Imagen de World Economic Forum](https://commons.wikimedia.org/wiki/File:Jeannette_Wing,_Davos_2013.jpg).</small>
+    <small>Fuente: [World Economic Forum](https://commons.wikimedia.org/wiki/File:Jeannette_Wing,_Davos_2013.jpg).</small>
   </figcaption>
 </figure>
 <p>
@@ -118,11 +124,65 @@ Investigadora en ciencias de la computación, ex vicepresidente de Microsoft Res
 ]
 
 ---
+class: center
+
+# Pilares del pensamiento computacional
+
+--
+<br><br>
+<figure>
+  <img src="img/pilares-pensamiento-computacional.png" />
+  <figcaption>
+    <small>Fuente: <a href="https://www.coursera.org/learn/computational-thinking-problem-solving">Universidad de Pennsylvania</a>.</small>
+  </figcaption>
+</figure>
+
+---
 
 # Descomposición
 
+--
+.pull-left[
 - ### División de un problema complejo en subproblemas más fáciles de resolver.
+
 - ### La unión de las soluciones a los subproblemas brinda la solución al problema original.
+]
+
+--
+.pull-right[
+<figure>
+  <img src="img/descomposicion.png" />
+  <figcaption>
+    <small>Fuente: <a href="https://www.coursera.org/learn/computational-thinking-problem-solving">Universidad de Pennsylvania</a>.</small>
+  </figcaption>
+</figure>
+]
+
+---
+
+# Descomposición - ejemplo
+
+--
+.pull-left[
+### Documento sin secciones
+<figure>
+  <img src="img/descomposicion-informe-completo.png" />
+  <figcaption>
+    <small>Fuente: <a href="https://www.coursera.org/learn/computational-thinking-problem-solving">Universidad de Pennsylvania</a>.</small>
+  </figcaption>
+</figure>
+]
+
+--
+.pull-right[
+### Documento con secciones
+<figure>
+  <img src="img/descomposicion-informe-secciones.png" />
+  <figcaption>
+    <small>Fuente: <a href="https://www.coursera.org/learn/computational-thinking-problem-solving">Universidad de Pennsylvania</a>.</small>
+  </figcaption>
+</figure>
+]
 
 ---
 
