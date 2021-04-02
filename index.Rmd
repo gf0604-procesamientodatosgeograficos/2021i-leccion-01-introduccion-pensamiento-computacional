@@ -41,6 +41,7 @@ background-size: contain
 
 # Resolución de problemas mediante computadoras
 
+--
 <br><br><br><br>
 <img src="img/resolucion-problemas-computadoras-01.png" height="150" />
 
@@ -67,16 +68,16 @@ background-size: contain
 # ¿Qué implica resolver problemas mediante pensamiento computacional?
 
 --
-- ### Dividir un problema en subproblemas más pequeños (descomposición).
+- ### Dividir un problema en subproblemas más pequeños (**descomposición**).
 
 --
-- ### Buscar similitudes en los problemas (reconocimiento de patrones).
+- ### Buscar similitudes en los problemas (**reconocimiento de patrones**).
 
 --
-- ### Identificar la información que se necesita y descartar la que no se necesita (abstracción).
+- ### Identificar la información que se necesita y descartar la que no se necesita (**abstracción**).
 
 --
-- ### Describir la solución paso por paso (algoritmos).
+- ### Describir la solución paso por paso (**algoritmos**).
 
 ---
 
@@ -89,7 +90,8 @@ background-size: contain
 - Creador del construccionismo
 - Co-creador del lenguaje Logo
 
-*Mindstorms: Children, Computers, and Powerful Ideas*. 1983.
+*Mindstorms: Children, Computers, and Powerful Ideas* (1983)  
+[*An Exploration in the Space of Mathematics Educations* (1996)](http://www.papert.org/articles/AnExplorationintheSpaceofMathematicsEducations.html)
 ]
 
 .pull-right[
@@ -99,7 +101,7 @@ background-size: contain
 - Investigadora en ciencias de la computación
 - Ex vicepresidente de Microsoft Research
 
-[*Computational thinking*. 2006.](https://www.cs.cmu.edu/~15110-s13/Wing06-ct.pdf)
+[*Computational thinking* (2006)](https://www.cs.cmu.edu/~15110-s13/Wing06-ct.pdf)
 ]
 
 ---
