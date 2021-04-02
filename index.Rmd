@@ -1,5 +1,4 @@
 ---
-
 title: "Introducción al pensamiento computacional"
 author: "Manuel Vargas"
 institute: "Universidad de Costa Rica"
