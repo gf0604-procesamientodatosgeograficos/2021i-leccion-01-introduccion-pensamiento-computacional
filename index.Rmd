@@ -245,6 +245,27 @@ Se componen de múltiples rectángulos (teselas o *tiles*) de diferentes tamaño
 
 ---
 
+# Reconocimiento de patrones - ejemplo
+## Patrones de diseño de software
+
+--
+.pull-left[
+- Inspirados en las ideas de Alexander, varios ingenieros de software desarrollaron patrones para resolver problemas comunes de desarrollo de software.
+- Los patrones de diseño de software alcanzaron gran popularidad con la publicación del libro [*Design Patterns: Elements of Reusable Object-Oriented Software* (1994)](https://en.wikipedia.org/wiki/Design_Patterns), escrito por Erich Gamma, Richard Helm, Ralph Johnson y John Vlissides; y en el cual se documentan [23 patrones de diseño de software](https://en.wikipedia.org/wiki/Design_Patterns#Patterns_by_type).
+]
+
+--
+.pull-right[
+<figure>
+  <img src="img/model-view-controller.png" />
+  <figcaption>
+    <small>Diagrama de interacciones en el patrón de diseño de software denominado <a href="https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93controlador">Modelo-Vista-Controlador o <em>Model-View-Controller</em> (MVC)</a>. Fuente: <a href="https://commons.wikimedia.org/wiki/File:MVC-Process.svg">RegisFrey</a>.</small>
+  </figcaption>
+</figure>
+]
+
+---
+
 # Abstracción
 
 --
