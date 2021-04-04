@@ -273,7 +273,70 @@ Se componen de múltiples rectángulos (teselas o *tiles*) de diferentes tamaño
 - ### Identificación de cuáles aspectos de un problema son importantes y de cuáles no lo son.
 
 - ### Ayuda a construir un modelo de la solución.
+
+- ### Se utiliza mucho en modelado de datos.
 ]
+
+--
+.pull-right[
+<figure>
+  <img src="img/abstraccion.png" />
+  <figcaption>
+    <small>Fuente: <a href="https://www.coursera.org/learn/computational-thinking-problem-solving">Universidad de Pennsylvania</a>.</small>
+  </figcaption>
+</figure>
+]
+
+---
+
+# Abstracción - ejemplo
+## Selección de atributos de un conjunto de datos
+
+--
+.pull-left[
+### Atributos generales de una persona
+- Nombre
+- Edad
+- Ingreso mensual
+- Historial académico
+- Pasatiempos
+- Color favorito
+- Estatura
+- Peso
+- Historial médico
+- ...
+]
+
+--
+.pull-right[
+#### Atributos a considerar para la BD de una universidad
+- Nombre
+- Edad
+- Historial académico
+- ...
+
+--
+#### Atributos a considerar para la BD de una red social
+- Nombre
+- Edad
+- Pasatiempos
+- ...
+]
+
+---
+
+# Abstracción - ejemplo
+## Capas temáticas de un SIG
+Las capas temáticas son una abstracción de un espacio geográfico
+
+--
+<br><br>
+<figure>
+  <img src="img/sig-capas.png" />
+  <figcaption>
+    <small>Fuente: <a href="http://www.admitnetwork.org/work-packages/gis-gps/">Admit</a>.</small>
+  </figcaption>
+</figure>
 
 --
 .pull-right[
