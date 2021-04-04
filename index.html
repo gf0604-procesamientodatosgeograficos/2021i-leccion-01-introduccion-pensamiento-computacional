@@ -229,6 +229,7 @@ Se componen de múltiples rectángulos (teselas o *tiles*) de diferentes tamaño
 --
 .pull-left[
 - Son posibles soluciones para problemas de diseño arquitectónico. Christopher Alexander et al. recopilaron más de 200 en su libro [*A Pattern Language: Towns, Buildings, Construction* (1977)](https://laptrinhx.com/a-pattern-language-3372046788/).
+
 - "*Cada patrón describe un problema que ocurre infinidad de veces en nuestro entorno, así como la solución al mismo, de tal modo que podemos utilizar esta solución un millón de veces más adelante sin tener que volver a pensarla otra vez.*" (Christopher Alexander)
 ]
 
@@ -250,6 +251,7 @@ Se componen de múltiples rectángulos (teselas o *tiles*) de diferentes tamaño
 --
 .pull-left[
 - Inspirados en las ideas de Alexander, varios ingenieros de software desarrollaron patrones para resolver problemas comunes de desarrollo de software.
+
 - Los patrones de diseño de software alcanzaron gran popularidad con la publicación del libro [*Design Patterns: Elements of Reusable Object-Oriented Software* (1994)](https://en.wikipedia.org/wiki/Design_Patterns), escrito por Erich Gamma, Richard Helm, Ralph Johnson y John Vlissides; y en el cual se documentan [23 patrones de diseño de software](https://en.wikipedia.org/wiki/Design_Patterns#Patterns_by_type).
 ]
 
@@ -314,7 +316,6 @@ Se componen de múltiples rectángulos (teselas o *tiles*) de diferentes tamaño
 - Historial académico
 - ...
 
---
 #### Atributos a considerar para la BD de una red social
 - Nombre
 - Edad
@@ -329,23 +330,12 @@ Se componen de múltiples rectángulos (teselas o *tiles*) de diferentes tamaño
 Las capas temáticas son una abstracción de un espacio geográfico
 
 --
-&lt;br&gt;&lt;br&gt;
 &lt;figure&gt;
   &lt;img src="img/sig-capas.png" /&gt;
   &lt;figcaption&gt;
     &lt;small&gt;Fuente: &lt;a href="http://www.admitnetwork.org/work-packages/gis-gps/"&gt;Admit&lt;/a&gt;.&lt;/small&gt;
   &lt;/figcaption&gt;
 &lt;/figure&gt;
-
---
-.pull-right[
-&lt;figure&gt;
-  &lt;img src="img/abstraccion.png" /&gt;
-  &lt;figcaption&gt;
-    &lt;small&gt;Fuente: &lt;a href="https://www.coursera.org/learn/computational-thinking-problem-solving"&gt;Universidad de Pennsylvania&lt;/a&gt;.&lt;/small&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-]
 
 ---
 
@@ -355,7 +345,7 @@ Las capas temáticas son una abstracción de un espacio geográfico
 .pull-left[
 - ### Indicaciones detalladas de como resolver, paso por paso, un problema.
 
-- ### Especifican el orden en el que deben ejecutarse los pasos.
+- ### Especifican el orden en el que deben ejecutarse los pasos, así como las condiciones que deben cumplirse antes de cada paso.
 ]
 
 --
@@ -367,6 +357,95 @@ Las capas temáticas son una abstracción de un espacio geográfico
   &lt;/figcaption&gt;
 &lt;/figure&gt;
 ]
+
+---
+
+# Algoritmos - ejemplo
+## Receta de cocina
+
+--
+&lt;figure&gt;
+  &lt;img src="img/arroz-con-pollo.png" height="400" /&gt;
+  &lt;figcaption&gt;
+    &lt;small&gt;Fuente: &lt;a href="https://cookpad.com/cr/recetas/6014919-arroz-con-pollo-al-estilo-costarricense"&gt;Cookpad&lt;/a&gt;.&lt;/small&gt;
+  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+---
+
+# Algoritmos - ejemplo
+## Obtener el valor máximo de una lista
+
+--
+### lista = [29.6, -36.81, 31.85, 25.71, 90.2, 0.4]
+
+--
+**Solo es posible comparar dos elementos de la lista a la vez, con el operador "mayor que" (&gt;).**
+
+--
+### Algoritmo expresado mediante [pseudocódigo](https://es.wikipedia.org/wiki/Pseudoc%C3%B3digo)
+
+--
+1. Se designa el primer elemento como "máximo actual".
+
+--
+2. Se recorre la lista y se compara cada uno de los elementos con el máximo actual.
+
+--
+3. Si un elemento comparado es mayor que el máximo actual, entonces pasa a ser el nuevo máximo actual.
+
+--
+4. El valor máximo de la lista es el del máximo actual, cuando termina de recorrerse la lista.
+
+---
+
+# Algoritmos - ejemplo
+## Obtener el valor máximo de una lista (continuación)
+
+--
+### Ejecución del algoritmo
+
+--
+&lt;span style="color:green";&gt;elemento en verde = máximo actual&lt;/span&gt;  
+&lt;span style="color:red";&gt;elemento en rojo  = elemento que está siendo comparado&lt;/span&gt;
+&lt;p&gt;
+
+--
+[&lt;span style="color:green;"&gt;29.6&lt;/span&gt;, &lt;span style="color:red;"&gt;-36.81&lt;/span&gt;, 31.85, 25.71, 90.2, 0.4]  
+&lt;p&gt;
+
+--
+[&lt;span style="color:green;"&gt;29.6&lt;/span&gt;, -36.81, &lt;span style="color:red;"&gt;31.85&lt;/span&gt;, 25.71, 90.2, 0.4]  
+&lt;p&gt;
+
+--
+[29.6, -36.81, &lt;span style="color:green;"&gt;31.85&lt;/span&gt;, &lt;span style="color:red;"&gt;25.71&lt;/span&gt;, 90.2, 0.4]  
+&lt;p&gt;
+
+--
+[29.6, -36.81, &lt;span style="color:green;"&gt;31.85&lt;/span&gt;, 25.71, &lt;span style="color:red;"&gt;90.2&lt;/span&gt;, 0.4]  
+&lt;p&gt;
+
+--
+[29.6, -36.81, 31.85, 25.71, &lt;span style="color:green;"&gt;90.2&lt;/span&gt;, &lt;span style="color:red;"&gt;0.4&lt;/span&gt;]  
+&lt;p&gt;
+
+--
+[29.6, -36.81, 31.85, 25.71, &lt;span style="color:green;"&gt;90.2&lt;/span&gt;, 0.4]  
+&lt;p&gt;
+
+--
+### Valor máximo = &lt;span style="color:green;"&gt;90.2&lt;/span&gt;
+
+---
+class:center
+
+# Algoritmos - [diagrama de flujo](https://es.wikipedia.org/wiki/Diagrama_de_flujo)
+
+--
+&lt;figure&gt;
+  &lt;img src="img/diagrama-flujo-valor-maximo.png" height="500" /&gt;
+&lt;/figure&gt;
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

@@ -230,6 +230,7 @@ Se componen de múltiples rectángulos (teselas o *tiles*) de diferentes tamaño
 --
 .pull-left[
 - Son posibles soluciones para problemas de diseño arquitectónico. Christopher Alexander et al. recopilaron más de 200 en su libro [*A Pattern Language: Towns, Buildings, Construction* (1977)](https://laptrinhx.com/a-pattern-language-3372046788/).
+
 - "*Cada patrón describe un problema que ocurre infinidad de veces en nuestro entorno, así como la solución al mismo, de tal modo que podemos utilizar esta solución un millón de veces más adelante sin tener que volver a pensarla otra vez.*" (Christopher Alexander)
 ]
 
@@ -251,6 +252,7 @@ Se componen de múltiples rectángulos (teselas o *tiles*) de diferentes tamaño
 --
 .pull-left[
 - Inspirados en las ideas de Alexander, varios ingenieros de software desarrollaron patrones para resolver problemas comunes de desarrollo de software.
+
 - Los patrones de diseño de software alcanzaron gran popularidad con la publicación del libro [*Design Patterns: Elements of Reusable Object-Oriented Software* (1994)](https://en.wikipedia.org/wiki/Design_Patterns), escrito por Erich Gamma, Richard Helm, Ralph Johnson y John Vlissides; y en el cual se documentan [23 patrones de diseño de software](https://en.wikipedia.org/wiki/Design_Patterns#Patterns_by_type).
 ]
 
@@ -315,7 +317,6 @@ Se componen de múltiples rectángulos (teselas o *tiles*) de diferentes tamaño
 - Historial académico
 - ...
 
---
 #### Atributos a considerar para la BD de una red social
 - Nombre
 - Edad
@@ -330,23 +331,12 @@ Se componen de múltiples rectángulos (teselas o *tiles*) de diferentes tamaño
 Las capas temáticas son una abstracción de un espacio geográfico
 
 --
-<br><br>
 <figure>
   <img src="img/sig-capas.png" />
   <figcaption>
     <small>Fuente: <a href="http://www.admitnetwork.org/work-packages/gis-gps/">Admit</a>.</small>
   </figcaption>
 </figure>
-
---
-.pull-right[
-<figure>
-  <img src="img/abstraccion.png" />
-  <figcaption>
-    <small>Fuente: <a href="https://www.coursera.org/learn/computational-thinking-problem-solving">Universidad de Pennsylvania</a>.</small>
-  </figcaption>
-</figure>
-]
 
 ---
 
@@ -356,7 +346,7 @@ Las capas temáticas son una abstracción de un espacio geográfico
 .pull-left[
 - ### Indicaciones detalladas de como resolver, paso por paso, un problema.
 
-- ### Especifican el orden en el que deben ejecutarse los pasos.
+- ### Especifican el orden en el que deben ejecutarse los pasos, así como las condiciones que deben cumplirse antes de cada paso.
 ]
 
 --
@@ -368,3 +358,92 @@ Las capas temáticas son una abstracción de un espacio geográfico
   </figcaption>
 </figure>
 ]
+
+---
+
+# Algoritmos - ejemplo
+## Receta de cocina
+
+--
+<figure>
+  <img src="img/arroz-con-pollo.png" height="400" />
+  <figcaption>
+    <small>Fuente: <a href="https://cookpad.com/cr/recetas/6014919-arroz-con-pollo-al-estilo-costarricense">Cookpad</a>.</small>
+  </figcaption>
+</figure>
+
+---
+
+# Algoritmos - ejemplo
+## Obtener el valor máximo de una lista
+
+--
+### lista = [29.6, -36.81, 31.85, 25.71, 90.2, 0.4]
+
+--
+**Solo es posible comparar dos elementos de la lista a la vez, con el operador "mayor que" (>).**
+
+--
+### Algoritmo expresado mediante [pseudocódigo](https://es.wikipedia.org/wiki/Pseudoc%C3%B3digo)
+
+--
+1. Se designa el primer elemento como "máximo actual".
+
+--
+2. Se recorre la lista y se compara cada uno de los elementos con el máximo actual.
+
+--
+3. Si un elemento comparado es mayor que el máximo actual, entonces pasa a ser el nuevo máximo actual.
+
+--
+4. El valor máximo de la lista es el del máximo actual, cuando termina de recorrerse la lista.
+
+---
+
+# Algoritmos - ejemplo
+## Obtener el valor máximo de una lista (continuación)
+
+--
+### Ejecución del algoritmo
+
+--
+<span style="color:green";>elemento en verde = máximo actual</span>  
+<span style="color:red";>elemento en rojo  = elemento que está siendo comparado</span>
+<p>
+
+--
+[<span style="color:green;">29.6</span>, <span style="color:red;">-36.81</span>, 31.85, 25.71, 90.2, 0.4]  
+<p>
+
+--
+[<span style="color:green;">29.6</span>, -36.81, <span style="color:red;">31.85</span>, 25.71, 90.2, 0.4]  
+<p>
+
+--
+[29.6, -36.81, <span style="color:green;">31.85</span>, <span style="color:red;">25.71</span>, 90.2, 0.4]  
+<p>
+
+--
+[29.6, -36.81, <span style="color:green;">31.85</span>, 25.71, <span style="color:red;">90.2</span>, 0.4]  
+<p>
+
+--
+[29.6, -36.81, 31.85, 25.71, <span style="color:green;">90.2</span>, <span style="color:red;">0.4</span>]  
+<p>
+
+--
+[29.6, -36.81, 31.85, 25.71, <span style="color:green;">90.2</span>, 0.4]  
+<p>
+
+--
+### Valor máximo = <span style="color:green;">90.2</span>
+
+---
+class:center
+
+# Algoritmos - [diagrama de flujo](https://es.wikipedia.org/wiki/Diagrama_de_flujo)
+
+--
+<figure>
+  <img src="img/diagrama-flujo-valor-maximo.png" height="500" />
+</figure>
