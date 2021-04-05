@@ -434,18 +434,67 @@ si (Vacia(LISTA)) {
   Desplegar("Lista vacía")
 } si no {
   MAX &lt;- LISTA[1]
-  N &lt;- 1
-  mientras (N &lt;= Longitud(LISTA)) {
-    ITEM &lt;- LISTA[N]
+  I &lt;- 1
+  mientras (I &lt;= Longitud(LISTA)) {
+    ITEM &lt;- LISTA[I]
     si (ITEM &gt; MAX) {
       MAX &lt;- ITEM
     }
-    N &lt;- N + 1
+    I &lt;- I + 1
   }
   Desplegar(MAX)
 }
 ```
 ]
+
+---
+
+# Algoritmos - implementación en [R](https://www.r-project.org/)
+
+```r
+# Obtener el valor máximo de una lista
+
+lista &lt;- c(29.6, -36.81, 31.85, 25.71, 90.2, 0.4)
+cat("Lista de entrada: ", lista, "\n")
+
+if (length(lista) == 0) {
+  cat("La lista está vacía", "\n")
+} else {
+  max &lt;- lista[1]
+  i &lt;- 1
+  while (i &lt;= length(lista)) {
+    if (lista[i] &gt; max) {
+      max &lt;- lista[i]
+    }
+    i &lt;- i + 1
+  }
+  
+  cat("Valor máximo de la lista: ", max, "\n")
+}
+```
+
+---
+
+# Algoritmos - implementación en [Python](https://www.python.org/)
+
+```python
+# Obtener el valor máximo de una lista
+
+lista = [29.6, -36.81, 31.85, 25.71, 90.2, 0.4]
+print("Lista de entrada: ", lista)
+
+if (len(lista) == 0):
+    print("La lista está vacía")
+else:
+    max = lista[0]
+    i = 0
+    while (i &lt; len(lista)):
+        if (lista[i] &gt; max):
+            max = lista[i]
+        i = i + 1
+        
+    print("Valor máximo de la lista:", max)  
+```
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
