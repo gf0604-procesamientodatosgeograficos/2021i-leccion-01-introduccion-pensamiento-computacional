@@ -32,17 +32,27 @@ background-size: contain
 # Contenidos
 
 - ### ¿Qué es pensamiento computacional?
-- ### Arquitectura de computadoras
-- ### Lenguajes de programación
-- ### Introducción al lenguaje Scratch
+
+- ### Conceptos fundamentales del pensamiento computacional:
+  - #### Descomposición.
+  - #### Reconocimiento de patrones.
+  - #### Abstracción.
+  - #### Algoritmos.
+  
+- ### Introducción al lenguaje Scratch.
 
 ---
 
 # Resolución de problemas mediante computadoras
 
 --
-<br><br><br><br>
-<img src="img/resolucion-problemas-computadoras-01.png" height="150" />
+### Las computadoras pueden ayudar a resolver problemas en muchas áreas.
+
+--
+<img src="img/resolucion-problemas-computadoras.png" height="150" />
+
+--
+### Los métodos para encontrar las soluciones a estos problemas deben expresarse de forma tal que puedan ser implementados en computadoras.
 
 ---
 
@@ -52,9 +62,6 @@ background-size: contain
 - ### Es un enfoque para la resolución de problemas basado en conceptos y métodos de las ciencias de la computación.
 
 --
-- ### Las soluciones se expresan de forma tal que puedan ser implementadas en una computadora.
-
---
 - ### Puede ser aplicado en muchas áreas, no solo en computación.
 
 --
@@ -62,22 +69,6 @@ background-size: contain
 
 --
 - ### Se considera una de las destrezas fundamentales del siglo XXI.
-
----
-
-# ¿Qué implica resolver problemas mediante pensamiento computacional?
-
---
-- ### Dividir un problema en subproblemas más pequeños (**descomposición**).
-
---
-- ### Buscar similitudes en los problemas (**reconocimiento de patrones**).
-
---
-- ### Identificar la información que se necesita y descartar la que no se necesita (**abstracción**).
-
---
-- ### Describir la solución paso por paso (**algoritmos**).
 
 ---
 
@@ -123,39 +114,33 @@ Investigadora en ciencias de la computación, ex vicepresidente de Microsoft Res
 ]
 
 ---
-class: center
 
-# Conceptos fundamentales del pensamiento computacional
+# ¿Qué implica resolver problemas mediante pensamiento computacional?
 
 --
-<br><br>
-<figure>
-  <img src="img/pilares-pensamiento-computacional.png" />
-  <figcaption>
-    <small>Fuente: <a href="https://www.coursera.org/learn/computational-thinking-problem-solving">Universidad de Pennsylvania</a>.</small>
-  </figcaption>
-</figure>
+## Se identifican cuatro conceptos fundamentales:
+
+--
+- ### **Descomposición**: división de un problema en subproblemas más pequeños.
+
+--
+- ### **Reconocimiento de patrones**: búsqueda de similitudes en los problemas.
+
+--
+- ### **Abstracción**: identificación de la información que se necesita y filtrado de la que no se necesita para resolver un problema.
+
+--
+- ### **Algoritmos**: descripción, paso por paso, de la solución a un problema.
 
 ---
 
 # Descomposición
 
 --
-.pull-left[
 - ### División de un problema complejo en subproblemas más fáciles de resolver.
 
-- ### La unión de las soluciones a los subproblemas brinda la solución al problema original.
-]
-
 --
-.pull-right[
-<figure>
-  <img src="img/descomposicion.png" />
-  <figcaption>
-    <small>Fuente: <a href="https://www.coursera.org/learn/computational-thinking-problem-solving">Universidad de Pennsylvania</a>.</small>
-  </figcaption>
-</figure>
-]
+- ### La unión de las soluciones a los subproblemas brinda la solución al problema original.
 
 ---
 
@@ -206,21 +191,10 @@ Se componen de múltiples rectángulos (teselas o *tiles*) de diferentes tamaño
 # Reconocimiento de patrones
 
 --
-.pull-left[
 - ### Se buscan similitudes o características compartidas entre problemas o componentes de un mismo problema.
 
-- ### Facilita la resolución de un problema al aplicarse una respuesta ya desarrollada.
-]
-
 --
-.pull-right[
-<figure>
-  <img src="img/reconocimiento-patrones.png" />
-  <figcaption>
-    <small>Fuente: <a href="https://www.coursera.org/learn/computational-thinking-problem-solving">Universidad de Pennsylvania</a>.</small>
-  </figcaption>
-</figure>
-]
+- ### Facilita la resolución de un problema al aplicarse una respuesta ya desarrollada.
 
 ---
 
@@ -271,23 +245,13 @@ Se componen de múltiples rectángulos (teselas o *tiles*) de diferentes tamaño
 # Abstracción
 
 --
-.pull-left[
 - ### Identificación de cuáles aspectos de un problema son importantes y de cuáles no lo son.
 
+--
 - ### Ayuda a construir un modelo de la solución.
 
-- ### Se utiliza mucho en modelado de datos.
-]
-
 --
-.pull-right[
-<figure>
-  <img src="img/abstraccion.png" />
-  <figcaption>
-    <small>Fuente: <a href="https://www.coursera.org/learn/computational-thinking-problem-solving">Universidad de Pennsylvania</a>.</small>
-  </figcaption>
-</figure>
-]
+- ### Se aplica en modelado de datos.
 
 ---
 
@@ -343,21 +307,10 @@ Las capas temáticas son una abstracción de un espacio geográfico
 # Algoritmos
 
 --
-.pull-left[
 - ### Indicaciones detalladas de como resolver, paso por paso, un problema.
 
-- ### Especifican el orden en el que deben ejecutarse los pasos, así como las condiciones que deben cumplirse antes de cada paso.
-]
-
 --
-.pull-right[
-<figure>
-  <img src="img/algoritmos.png" />
-  <figcaption>
-    <small>Fuente: <a href="https://www.coursera.org/learn/computational-thinking-problem-solving">Universidad de Pennsylvania</a>.</small>
-  </figcaption>
-</figure>
-]
+- ### Especifican el orden en el que deben ejecutarse los pasos, así como las condiciones que deben cumplirse antes de cada paso.
 
 ---
 
@@ -378,25 +331,31 @@ Las capas temáticas son una abstracción de un espacio geográfico
 ## Obtener el valor máximo de una lista
 
 --
-### lista = [29.6, -36.81, 31.85, 25.71, 90.2, 0.4]
+#### lista = [29.6, -36.81, 31.85, 25.71, 90.2, 0.4]
 
 --
-**Solo es posible comparar dos elementos de la lista a la vez, con el operador "mayor que" (>).**
+Solo es posible comparar dos elementos de la lista a la vez, para determinar si uno es mayor que otro.
 
 --
-### Algoritmo expresado mediante [pseudocódigo](https://es.wikipedia.org/wiki/Pseudoc%C3%B3digo)
+#### Algoritmo
 
 --
-1. Se designa el primer elemento como "máximo actual".
+1. Se lee la lista (del teclado, de un archivo o de alguna otra fuente).
 
 --
-2. Se recorre la lista y se compara cada uno de los elementos con el máximo actual.
+2. Si la lista está vacía, se despliega la hilera de texto "Lista vacía" y se concluye el proceso. Si no, se continúa con el paso 3.
 
 --
-3. Si un elemento comparado es mayor que el máximo actual, entonces pasa a ser el nuevo máximo actual.
+3. Se designa el primer elemento de la lista como "máximo actual".
 
 --
-4. El valor máximo de la lista es el del máximo actual, cuando termina de recorrerse la lista.
+4. Se recorre la lista y se compara cada uno de los elementos con el máximo actual.
+
+--
+5. Si un elemento comparado es mayor que el máximo actual, entonces pasa a ser el nuevo máximo actual.
+
+--
+4. El valor máximo de la lista es el máximo actual, cuando termina de recorrerse la lista.
 
 ---
 
@@ -439,11 +398,52 @@ Las capas temáticas son una abstracción de un espacio geográfico
 ### Valor máximo = <span style="color:green;">90.2</span>
 
 ---
-class:center
 
-# Algoritmos - [diagrama de flujo](https://es.wikipedia.org/wiki/Diagrama_de_flujo)
+# Algoritmos - diagramas de flujo
 
 --
+.pull-left[
+- ### Los [diagramas de flujo](https://es.wikipedia.org/wiki/Diagrama_de_flujo) son representaciones diagramáticas de un algoritmo.
+- ### Representan los pasos del algoritmo mediante [símbolos](https://es.wikipedia.org/wiki/Diagrama_de_flujo#Simbolog%C3%ADa_y_significado) y su orden de ejecución mediante flechas.
+- ### Por convención, se leen de arriba hacia abajo o de izquierda a derecha.
+]
+
+--
+.pull-right[
+#### Ejemplo: obtener el máximo de una lista
 <figure>
-  <img src="img/diagrama-flujo-valor-maximo.png" height="500" />
+  <img src="img/diagrama-flujo-valor-maximo.png" />
 </figure>
+]
+
+---
+
+# Algoritmos - pseudocódigo
+
+--
+.pull-left[
+- ### El [pseudocódigo](https://es.wikipedia.org/wiki/Pseudoc%C3%B3digo) es una descripción textual y en lenguaje natural de un algoritmo.
+- ### Su estructura se asemeja a la de un lenguaje de programación, pero está diseñado para que ser comprendido por personas, no para ser ejecutado por computadoras.
+]
+
+--
+.pull-right[
+#### Ejemplo: obtener el máximo de una lista
+```r
+LISTA <- Leer()
+si (Vacia(LISTA)) {
+  Desplegar("Lista vacía")
+} si no {
+  MAX <- LISTA[1]
+  N <- 1
+  mientras (N <= Longitud(LISTA)) {
+    ITEM <- LISTA[N]
+    si (ITEM > MAX) {
+      MAX <- ITEM
+    }
+    N <- N + 1
+  }
+  Desplegar(MAX)
+}
+```
+]
