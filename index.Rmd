@@ -502,3 +502,48 @@ else:
 <small>
   [Archivo con código fuente en Python](https://github.com/gf0604-procesamientodatosgeograficos/2021i-leccion-01-introduccion-pensamiento-computacional/blob/master/valor-maximo-lista/valor-maximo-lista.py)
 </small>
+
+---
+
+# El lenguaje de programación Scratch
+
+.pull-left[
+- [Scratch](https://scratch.mit.edu/) es un lenguaje de programación orientado a educación. Su nombre proviene de la palabra [*scratching*](https://en.wikipedia.org/wiki/Scratching).
+
+- [*"Scratch ayuda a las personas jóvenes a pensar creativamente, razonar sistemáticamente y trabajar colaborativamente..."*](https://scratch.mit.edu/about).
+
+- Fue desarrollado en 2003 (una versión de escritorio) por el [MIT Media Lab](https://www.media.mit.edu/) y es administrado por la Fundación Scratch, una organización sin fines de lucro que lo facilita de manera gratuita.
+
+- Scratch es software libre distribuido mediante licencia [GPLv2](https://es.wikipedia.org/wiki/GNU_General_Public_License).
+]
+
+.pull-right[
+<figure>
+  <img src="img/Scratchlogo.svg.png" />
+  <figcaption>
+    <small>Fuente: <a href="https://commons.wikimedia.org/wiki/File:Scratchlogo.svg">Scratch Team</a>.</small>
+  </figcaption>
+</figure>
+]
+
+---
+
+# Práctica de programación con Scratch
+## Considere este paisaje:
+
+<img src="img/paisaje-urbano.png" height="400" />
+
+---
+
+# Práctica de programación con Scratch (continuación)
+
+- Ingrese al sitio web de [Scratch](https://scratch.mit.edu/) y estudie la intefaz del ambiente de desarrollo. Puede buscar información adicional en otros sitios (Google, YouTube, etc.). Revise ejemplos y proyectos de otras personas para saber qué puede hacer con Scratch.
+
+- Utilizando los cuatro principios fundamentales del pensamiento computacional, desarrolle un algoritmo para dibujar el paisaje de la diapositiva anterior. Considere las siguientes preguntas orientadoras:
+
+  - ¿Cómo puede dividirse el problema?
+  - ¿Qué patrones observa (formas, tamaños, etc.)?
+  - ¿Qué información se necesita para hacer los dibujos (ej. medidas)?
+  - ¿Qué nivel de detalle requiere el algoritmo?
+  
+- Implemente en Scratch el algoritmo que desarrolló.
