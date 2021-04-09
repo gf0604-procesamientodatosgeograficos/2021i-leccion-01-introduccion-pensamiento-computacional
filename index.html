@@ -546,6 +546,83 @@ else:
   - ¿Qué nivel de detalle requiere el algoritmo?
   
 - Implemente en Scratch el algoritmo que desarrolló.
+
+---
+
+# Práctica de programación con Scratch (continuación)
+## Aplicación de pensamiento computacional
+
+### Descomposición
+**Subproblemas**
+- Dibujar casa
+  - Dibujar base
+  - Dibujar techo
+  
+- Dibujar edificio
+  - Dibujar base
+  - Dibujar base
+  - Dibujar techo
+  
+---
+
+# Práctica de programación con Scratch (continuación)
+## Aplicación de pensamiento computacional
+
+### Reconocimiento de patrones
+**Patrones identificados**
+- Dibujar base --&gt; dibujar cuadradado
+- Dibujar techo --&gt; dibujar triángulo
+
+---
+
+# Práctica de programación con Scratch (continuación)
+## Aplicación de pensamiento computacional
+
+### Algoritmo en pseudocódigo
+Nota: las posiciones (x, y) que se pasan como parámetros corresponden a la esquina inferior izquierda de las figuras.
+
+```
+dibujar_paisaje
+  borrar_todo
+  dibujar_casa (-160, 10, 50)
+  dibujar_casa (-85, -140, 60)
+  dibujar_casa (145, -60, 75)
+  dibujar_edificio (10, -40, 75)  
+```  
+
+---
+
+```
+dibujar_casa (x, y, lado)
+  dibujar_base (x, y, lado)
+  dibujar_techo (x, y + lado, lado)
+
+dibujar_edificio (x, y, lado)
+  dibujar_base (x, y, lado)
+  dibujar_base (x, y + lado, lado)
+  dibujar_techo (x, y + lado*2, lado)
+  
+dibujar_base (x, y, lado)
+  subir_lapiz
+  ir_a (x, y)
+  apuntar_en_direccion (90)
+  bajar_lapiz
+  repetir 4 veces
+    esperar_segundos (0.5)
+    mover (lado)
+    girar_derecha (90)
+    
+dibujar_techo (x, y, lado)
+  subir_lapiz
+  ir_a (x, y)
+  bajar_lapiz
+  apuntar_en_direccion (90)
+  repetir 3 veces
+    esperar_segundos (0.5)
+    mover (lado)
+    girar_izquierda (120)
+    
+```
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
