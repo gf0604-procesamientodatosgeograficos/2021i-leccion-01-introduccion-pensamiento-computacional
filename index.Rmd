@@ -535,7 +535,7 @@ else:
 
 ---
 
-# Práctica de programación con Scratch (continuación)
+# Práctica de programación con Scratch
 
 - Ingrese al sitio web de [Scratch](https://scratch.mit.edu/) y estudie la intefaz del ambiente de desarrollo. Puede buscar información adicional en otros sitios (Google, YouTube, etc.). Revise ejemplos y proyectos de otras personas para saber qué puede hacer con Scratch.
 
@@ -550,7 +550,7 @@ else:
 
 ---
 
-# Práctica de programación con Scratch (continuación)
+# Práctica de programación con Scratch
 ## Aplicación de pensamiento computacional
 
 ### Descomposición
@@ -566,7 +566,7 @@ else:
   
 ---
 
-# Práctica de programación con Scratch (continuación)
+# Práctica de programación con Scratch
 ## Aplicación de pensamiento computacional
 
 ### Reconocimiento de patrones
@@ -576,7 +576,7 @@ else:
 
 ---
 
-# Práctica de programación con Scratch (continuación)
+# Práctica de programación con Scratch
 ## Aplicación de pensamiento computacional
 
 ### Abstracción
@@ -588,7 +588,7 @@ else:
 
 ---
 
-# Práctica de programación con Scratch (continuación)
+# Práctica de programación con Scratch
 ## Aplicación de pensamiento computacional
 
 ### Algoritmo en pseudocódigo
@@ -636,3 +636,14 @@ dibujar_techo (x, y, lado)
     girar_izquierda (120)
     
 ```
+
+---
+
+# Práctica de programación con Scratch
+## Aplicación de pensamiento computacional
+
+### Resultado de la implementación del algoritmo en Scratch
+
+<img src="img/paisaje-scratch.png" height="300" />
+
+[Código fuente (próximamente)](https://github.com/gf0604-procesamientodatosgeograficos/2021i-leccion-01-introduccion-pensamiento-computacional/raw/master/paisaje/paisaje.sb3)
