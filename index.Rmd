@@ -505,6 +505,19 @@ else:
 
 ---
 
+# Algoritmos
+## Entrada -> Procesamiento -> Salida
+
+--
+Este patrón describe el flujo de procesamiento básico de cualquier algoritmo o programa.
+
+<br><br>
+<figure>
+  <img src="img/entrada-procesamiento-salida.png" />
+</figure>
+
+---
+
 # El lenguaje de programación Scratch
 
 .pull-left[
@@ -646,4 +659,4 @@ dibujar_techo (x, y, lado)
 
 <img src="img/paisaje-scratch.png" height="300" />
 
-<!--- [Código fuente (próximamente)](https://github.com/gf0604-procesamientodatosgeograficos/2021i-leccion-01-introduccion-pensamiento-computacional/raw/master/paisaje/paisaje.sb3) --->
+[Código fuente](https://github.com/gf0604-procesamientodatosgeograficos/2021i-leccion-01-introduccion-pensamiento-computacional/raw/master/paisaje/paisaje.sb3)
